@@ -1,0 +1,11 @@
+body{
+    background-color: #1E1E1E;
+    font-family: "Urbanist", sans-serif;
+    height: 5000px;
+}
+header nav{
+    background-color: #1A1A1A;
+}
+header nav .btn{
+    background-color: #141414;
+}

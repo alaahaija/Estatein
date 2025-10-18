@@ -10,26 +10,28 @@
     <!-- BOOTSTRAP 5.3V -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    
+
     <!-- GOOGLE FONTS -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
     <!-- CUSTOM CSS -->
-     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/hero.css">
 </head>
 
 <body>
 
-    <header class="pt-3 pb-3">
-        <nav class="navbar navbar-dark navbar-expand-lg position-fixed top-0 w-100">
+    <header class="position-sticky top-0">
+        <nav class="navbar navbar-dark navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="./assets/img/public/Logo.webp" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span><img src="./assets/img/public/bar.svg" alt="bar"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -37,7 +39,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="./about.html">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Properties</a>
@@ -51,6 +53,58 @@
             </div>
         </nav>
     </header>
+
+    <main>
+        <section class="hero vh-100">
+            <div class="container-fluid px-0">
+                <div class="d-flex row g-0">
+                    <div class="col-6">
+                        <div class="hero-content d-flex flex-column align-items-start justify-content-center pt-1 d-grid gap-3">
+                            <h1 class="pt-5 ps-5">Discover Your Dream Property with Estatein</h1>
+                            <p>Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
+                            <div>
+                                <button class="btn text-white border">Learn More</button>
+                            <button class="btn text-white border">Browse Properties</button>
+                            </div>
+                            <div class="d-flex gap-1 row">
+                                <div class="col-sm-6 mb-3 mb-sm-0">
+                                    <div class="card">
+                                        <div class="card-body text-white">
+                                            <h5 class="card-title">200+</h5>
+                                            <p class="card-text">Happy Customers</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card">
+                                        <div class="card-body text-white">
+                                            <h5 class="card-title">10k+</h5>
+                                            <p class="card-text">Properties For Clients</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card">
+                                        <div class="card-body text-white">
+                                            <h5 class="card-title">16+</h5>
+                                            <p class="card-text">Years of Experience</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="hero-img d-flex align-items-center justify-content-center pt-1">
+                            <img src="./assets/img/hero/hero.webp" alt="hero-img" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
 
     <!-- BOOTSTRAP 5.3V -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

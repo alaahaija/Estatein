@@ -1,0 +1,10 @@
+.hero-content{
+    background-color: #141414;
+}
+.card-body{
+    background-color: #262626;
+}
+.hero-img{
+    background:linear-gradient(225deg, rgba(42, 33, 63, 0.5) 6%, rgba(25, 25, 25, 0.5) 49%), url(./../img/hero/abstract.webp);
+    background-size: cover;
+}

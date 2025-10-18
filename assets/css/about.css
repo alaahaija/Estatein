@@ -1,0 +1,3 @@
+.card-one, .card-two, .card-three{
+    flex: 1 1 150px;
+}

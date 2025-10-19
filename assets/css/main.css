@@ -1,12 +1,23 @@
 body{
-    background-color: #1E1E1E;
+    background-color: #1A1A1A;
     font-family: "Urbanist", sans-serif;
     height: 5000px;
     color: #fff;
 }
-header nav{
-    background-color: #1A1A1A;
+header nav, footer .downSide{
+    background-color: #1E1E1E;
 }
 header nav .btn{
     background-color: #141414;
+}
+.estatein-bg{
+    background-color: #1A1A1A;
+}
+.upSide-left p{
+    color: #999;
+}
+@media screen and (max-width: 768px) {
+    .downSide-left{
+        justify-content: center;
+    }
 }

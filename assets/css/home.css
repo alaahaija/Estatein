@@ -25,7 +25,15 @@
         width: 100%;
     }
 }
-.card-body{
+@media screen and (max-width:1200px) {
+    .hero .boxes{
+        align-items: center;
+    }
+}
+.featured-properties .card ul li span{
+    font-size: .55rem;
+}
+.FAQ .card-body{
     background-color: #262626;
 }
 footer form input{

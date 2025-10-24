@@ -27,10 +27,8 @@
     .hero-img img{
         width: 100%;
     }
-}
-@media screen and (max-width:1200px) {
     .hero .boxes{
-        align-items: center;
+        text-align: center;
     }
 }
 .featured-properties .card span{

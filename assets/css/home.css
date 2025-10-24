@@ -37,9 +37,6 @@
 .featured-properties .c-img{
     object-fit: contain;
 }
-.FAQ .card-body{
-    background-color: #262626;
-}
 footer form input{
     outline: none;
 }

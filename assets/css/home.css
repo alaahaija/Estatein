@@ -1,4 +1,7 @@
-.hero .btn-color{
+.color{
+    color: #999999;
+}
+.btn-color{
     background-color: #703BF7;
 }
 .hero-img{
@@ -30,8 +33,11 @@
         align-items: center;
     }
 }
-.featured-properties .card ul li span{
-    font-size: .55rem;
+.featured-properties .card span{
+    font-size: 15px;
+}
+.featured-properties .c-img{
+    object-fit: contain;
 }
 .FAQ .card-body{
     background-color: #262626;

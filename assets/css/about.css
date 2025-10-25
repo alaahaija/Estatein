@@ -1,3 +1,5 @@
-.card-one, .card-two, .card-three{
-    flex: 1 1 150px;
+.hero-img{
+    background-image: url(./../img/about/hero/Abstract\ Design.webp);
+    background-size:cover;
 }
+

@@ -3,6 +3,9 @@ body{
     font-family: "Urbanist", sans-serif;
     color: #fff;
 }
+.color{
+    color: #999999;
+}
 header nav, footer .downSide{
     background-color: #1E1E1E;
 }

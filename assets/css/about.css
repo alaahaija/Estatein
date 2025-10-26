@@ -18,10 +18,12 @@
 }
 .estatein-team form{
     width: 100%;
+    box-sizing: border-box;
 }
 .estatein-team input{
     outline: none;
     width: 80%;
+    box-sizing: border-box;
 }
 .estatein-team button{
     background-color: #703BF7;

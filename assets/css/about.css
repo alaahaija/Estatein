@@ -10,4 +10,12 @@
                     linear-gradient(140deg, #111111, #111111); /* الخلفية الأساسية السوداء */
   background-color: #111111;
 }
-
+.twitter{
+    top: 55%;
+}
+.estatein-team input{
+    outline: none;
+}
+.estatein-team button{
+    background-color: #703BF7;
+}

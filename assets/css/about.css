@@ -13,8 +13,15 @@
 .twitter{
     top: 55%;
 }
+.twitter img{
+    width: 3.2rem;
+}
+.estatein-team form{
+    width: 100%;
+}
 .estatein-team input{
     outline: none;
+    width: 80%;
 }
 .estatein-team button{
     background-color: #703BF7;

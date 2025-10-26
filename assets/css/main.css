@@ -18,10 +18,22 @@ header nav .btn{
 .gray-bg{
     background-color: #1A1A1A;
 }
+.start-journey{
+    padding: 85px 0;
+    background: url(./../img/public/left-bg.webp) bottom left no-repeat,
+                url(./../img/public/right-bg.webp) bottom right no-repeat ;
+}
+.start-journey a{
+    background-color: #703BF7;
+}
+
 .upSide-left p{
     color: #999;
 }
 @media screen and (max-width: 768px) {
+    .start-journey{
+        background:url(./../img/public/right-bg.webp) bottom right no-repeat;         
+    }
     .downSide-left{
         justify-content: center;
     }

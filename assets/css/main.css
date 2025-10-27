@@ -6,6 +6,9 @@ body{
 .color{
     color: #999999;
 }
+.btn-purple{
+    background-color: #703BF7;
+}
 header nav, footer .downSide{
     background-color: #1E1E1E;
 }
@@ -22,13 +25,6 @@ header nav .btn{
     padding: 85px 0;
     background: url(./../img/public/left-bg.webp) bottom left no-repeat,
                 url(./../img/public/right-bg.webp) bottom right no-repeat ;
-}
-.start-journey a{
-    background-color: #703BF7;
-}
-
-.upSide-left p{
-    color: #999;
 }
 @media screen and (max-width: 768px) {
     .start-journey{

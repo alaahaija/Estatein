@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Estatein Home page" >
-    <title>Property Details</title>
-    <link rel="icon" type="image/webp" href="./assets/img/public/iconLogo.webp">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Estatein Home page">
+        <title>Property Details</title>
+        <link rel="icon" type="image/webp" href="./assets/img/public/iconLogo.webp">
 
-    <!-- BOOTSTRAP 5.3V -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <!-- BOOTSTRAP 5.3V -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
 
-    <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/home.css">
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./assets/css/propertiesDetails.css">
+    </head>
 </head>
-</head>
+
 <body>
 
-    <header class="position-sticky top-0 z-1">
+    <header class="position-sticky top-0 z-2">
         <nav class="navbar navbar-dark navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="./assets/img/public/Logo.webp" alt="logo" /></a>
@@ -57,6 +60,199 @@
 
     <main>
 
+        <section class="property-info py-5">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-center justify-content-md-between flex-wrap pb-3">
+                    <div class="d-flex align-items-center justify-content-center flex-wrap gap-2">
+                        <span class="fw-bolder fs-5">Seaside Serenity Villa</span>
+                        <span
+                            class="small d-flex align-items-center border border-white border-opacity-10 rounded-5 px-3 py-1"><img
+                                src="./assets/img/properties/search property/location.svg" alt="location"
+                                width="19rem" />Malibu, California</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center align-items-md-start gap-2">
+                        <span class="small color">Price</span>
+                        <span>$1,250,000</span>
+                    </div>
+                </div>
+                <div id="carouselExampleIndicators"
+                    class="carousel slide p-3 border border-4 border-white border-opacity-10 rounded gray-bg">
+                    <div class="carousel-indicators z-1">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1">
+                        </button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2">
+
+                        </button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row g-1">
+                                <div class="col-md-6 col-12">
+                                    <img src="./assets/img/property-details/propertyDetails/propertyDetails1.webp"
+                                        class="d-block w-100" alt="propertyDetails" />
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <img src="./assets/img/property-details/propertyDetails/propertyDetails2.webp"
+                                        class="d-block w-100" alt="propertyDetails" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="row g-1">
+                                <div class="col-md-6 col-12">
+                                    <img src="./assets/img/property-details/propertyDetails/propertyDetails3.webp"
+                                        class="d-block w-100" alt="propertyDetails" />
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <img src="./assets/img/property-details/propertyDetails/propertDetails4.webp"
+                                        class="d-block w-100" alt="propertyDetails" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="row g-1">
+                                <div class="col-md-6 col-12">
+                                    <img src="./assets/img/property-details/propertyDetails/propertyDetails5.webp"
+                                        class="d-block w-100" alt="propertyDetails" />
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <img src="./assets/img/property-details/propertyDetails/propertyDetails6.webp"
+                                        class="d-block w-100" alt="propertyDetails" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="row g-1">
+                                <div class="col-md-6 col-12">
+                                    <img src="./assets/img/property-details/propertyDetails/propertyDetails7.webp"
+                                        class="d-block w-100" alt="propertyDetails" />
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <img src="./assets/img/property-details/propertyDetails/propertyDetails8.webp"
+                                        class="d-block w-100" alt="propertyDetails" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="row g-1">
+                                <div class="col-md-6 col-12">
+                                    <img src="./assets/img/property-details/propertyDetails/propertyDetails9.webp"
+                                        class="d-block w-100" alt="propertyDetails" />
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <img src="./assets/img/property-details/propertyDetails/propertyDetails1.webp"
+                                        class="d-block w-100" alt="propertyDetails" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-6">
+                        <div class="p-3 border border-white border-opacity-10 rounded-2">
+                            <div class=" border-bottom border-white border-opacity-10">
+                                <p>Description</p>
+                                <p class="small color">Discover your own piece of paradise with the Seaside Serenity
+                                    Villa. T With an open floor
+                                    plan, breathtaking ocean views from every room, and direct access to a pristine
+                                    sandy
+                                    beach, this property is the epitome of coastal living.</p>
+                            </div>
+                            <div class="row pt-3">
+                                <div class="col-lg-4 col-sm-6 col-6">
+                                    <div class="d-flex flex-column gap-3">
+                                        <span><img src="./assets/img/property-details/propertyDetails/bedroom.svg"
+                                                alt="bedroom" class="pe-2" />Bedroom</span>
+                                        <span>04</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-6">
+                                    <div class="d-flex flex-column gap-3">
+                                        <span><img src="./assets/img/property-details/propertyDetails/shower.svg"
+                                                alt="shower" class="pe-2" />Bathrooms</span>
+                                        <span>04</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 col-12">
+                                    <div class="d-flex flex-column gap-3">
+                                        <span><img src="./assets/img/property-details/propertyDetails/area.svg"
+                                                alt="area" class="pe-2" />Area</span>
+                                        <span>2,500 Square Feet</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="border border-white border-opacity-10 rounded p-3">
+                            <p>Key Features and Amenities</p>
+                            <div class="row">
+                                <div class="col-12 pb-3">
+                                    <div class="key-featuer px-3 py-2">
+                                        <p class="small color"><img
+                                                src="./assets/img/property-details/propertyDetails/flash.svg"
+                                                alt="flash" class="pe-3"/>Expansive oceanfront terrace for outdoor entertaining
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 pb-3">
+                                    <div class="key-featuer px-3 py-2">
+                                        <p class="small color"><img
+                                                src="./assets/img/property-details/propertyDetails/flash.svg"
+                                                alt="flash" class="pe-3"/>Gourmet kitchen with top-of-the-line appliances
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 pb-3">
+                                    <div class="key-featuer px-3 py-2">
+                                        <p class="small color"><img
+                                                src="./assets/img/property-details/propertyDetails/flash.svg"
+                                                alt="flash" class="pe-3"/>Private beach access for morning strolls and sunset views
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 pb-3">
+                                    <div class="key-featuer px-3 py-2">
+                                        <p class="small color"><img
+                                                src="./assets/img/property-details/propertyDetails/flash.svg"
+                                                alt="flash" class="pe-3"/>Master suite with a spa-inspired bathroom and ocean-facing balcony
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 pb-3">
+                                    <div class="key-featuer px-3 py-2">
+                                        <p class="small color"><img
+                                                src="./assets/img/property-details/propertyDetails/flash.svg"
+                                                alt="flash" class="pe-3"/>Private garage and ample storage space
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="start-journey border border-end-0 border-start-0 border-white border-opacity-10">
             <div class="container">
                 <div class="row">
@@ -78,7 +274,7 @@
                 </div>
             </div>
         </section>
-        
+
     </main>
 
     <footer class="pt-5">
@@ -211,6 +407,12 @@
             </div>
         </div>
     </footer>
-    
+
+    <!-- BOOTSTRAP 5.3V -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>

@@ -71,49 +71,96 @@
                 <form>
                     <div class="row justify-content-center">
                         <div class="col-12 d-flex justify-content-center">
-                            <div class="d-flex justify-content-center border border-3 border-white border-opacity-10 rounded-top estatein-bg py-2 w-75">
-                                <input type="text" placeholder="Search For A Property" class="w-75 estatein-bg text-white p-2 border-0"/>
-                                <button class="align-self-end text-white small btn btn-purple border border-white border-opacity-10 ps-2"><img src="./assets/img/properties/search property/search.svg" alt="search" class="pe-1"/><p class="small d-none d-md-inline-block mb-0">Find Property</p></button>
+                            <div
+                                class="d-flex justify-content-center border border-3 border-white border-opacity-10 rounded-top estatein-bg py-2 w-75">
+                                <input type="text" placeholder="Search For A Property"
+                                    class="w-75 estatein-bg text-white p-2 border-0" />
+                                <button
+                                    class="align-self-end text-white small btn btn-purple border border-white border-opacity-10 ps-2"><img
+                                        src="./assets/img/properties/search property/search.svg" alt="search"
+                                        class="pe-1" />
+                                    <p class="small d-none d-md-inline-block mb-0">Find Property</p>
+                                </button>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-6 col-12 pt-3">
-                            <div class="d-flex flex-column gap-1">
-                                <label class="pt-3">Property Type</label>
-                                <select type="text" class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
-                                    <option>Select Property Type</option>
-                                </select>
+                        <div class="col-lg-2 col-md-6 col-12 p-3">
+                            <div
+                                class="d-flex align-items-center gap-1 border border-white border-opacity-10 rounded text-white gray-bg">
+                                <span><img src="./assets/img/properties/search property/location.svg" alt="location"
+                                        class="ps-3" /></span>
+                                <button class="btn gray-bg dropdown-toggle ps-3 border-0 text-white" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Location
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">New York City, NY</a></li>
+                                    <li><a class="dropdown-item" href="#">Los Angeles, CA</a></li>
+                                    <li><a class="dropdown-item" href="#">Miami, FL</a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-6 col-12 pt-3">
-                            <div class="d-flex flex-column gap-1">
-                                <label class="pt-3">Property Type</label>
-                                <select type="text" class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
-                                    <option>Select Property Type</option>
-                                </select>
+                        <div class="col-lg-2 col-md-6 col-12 p-3">
+                            <div
+                                class="d-flex align-items-center gap-1 border border-white border-opacity-10 rounded text-white gray-bg">
+                                <span><img src="./assets/img/properties/search property/property.svg" alt="property"
+                                        class="ps-3" /></span>
+                                <button class="btn gray-bg dropdown-toggle ps-3 border-0 text-white" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Property Type
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Single-Family Home</a></li>
+                                    <li><a class="dropdown-item" href="#">Condo / Apartment</a></li>
+                                    <li><a class="dropdown-item" href="#">Townhouse / Villa</a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-6 col-12 pt-3">
-                            <div class="d-flex flex-column gap-1">
-                                <label class="pt-3">Property Type</label>
-                                <select type="text" class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
-                                    <option>Select Property Type</option>
-                                </select>
+                        <div class="col-lg-2 col-md-6 col-12 p-3">
+                            <div
+                                class="d-flex align-items-center gap-1 border border-white border-opacity-10 rounded text-white gray-bg">
+                                <span><img src="./assets/img/properties/search property/money.svg" alt="money"
+                                        class="ps-3" /></span>
+                                <button class="btn gray-bg dropdown-toggle ps-3 border-0 text-white" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pricing Range
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">$300k - $750k</a></li>
+                                    <li><a class="dropdown-item" href="#">Under $300k</a></li>
+                                    <li><a class="dropdown-item" href="#">$1M+</a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-6 col-12 pt-3">
-                            <div class="d-flex flex-column gap-1">
-                                <label class="pt-3">Property Type</label>
-                                <select type="text" class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
-                                    <option>Select Property Type</option>
-                                </select>
+                        <div class="col-lg-2 col-md-6 col-12 p-3">
+                            <div
+                                class="d-flex align-items-center gap-1 border border-white border-opacity-10 rounded text-white gray-bg">
+                                <span><img src="./assets/img/properties/search property/size.svg" alt="size"
+                                        class="ps-3" /></span>
+                                <button class="btn gray-bg dropdown-toggle ps-3 border-0 text-white" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Property Size
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">1,500 - 2,500 Sq Ft</a></li>
+                                    <li><a class="dropdown-item" href="#">Under 1,500 Sq Ft</a></li>
+                                    <li><a class="dropdown-item" href="#">3,000+ Sq Ft</a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-6 col-12 pt-3">
-                            <div class="d-flex flex-column gap-1">
-                                <label class="pt-3">Property Type</label>
-                                <select type="text" class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
-                                    <option>Select Property Type</option>
-                                </select>
+                        <div class="col-lg-2 col-md-6 col-12 p-3">
+                            <div
+                                class="d-flex align-items-center gap-1 border border-white border-opacity-10 rounded text-white gray-bg">
+                                <span><img src="./assets/img/properties/search property/date.svg" alt="date"
+                                        class="ps-3" /></span>
+                                <button class="btn gray-bg dropdown-toggle ps-3 border-0 text-white" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Build Year
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Since 2000</a></li>
+                                    <li><a class="dropdown-item" href="#">Any Year</a></li>
+                                    <li><a class="dropdown-item" href="#">Pre-1980</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -133,9 +180,11 @@
                             <img src="./assets/img/home/featured properties/Seaside Serenity Villa.webp"
                                 class="card-img-top c-img" alt="villa" />
                             <div class="card-body">
-                                <p class="small border border-white border-opacity-10 rounded-4 text-center gray-bg">Coastal Escapes - Where Waves Beckon</p>
+                                <p class="small border border-white border-opacity-10 rounded-4 text-center gray-bg">
+                                    Coastal Escapes - Where Waves Beckon</p>
                                 <h5 class="card-title">Seaside Serenity Villa</h5>
-                                <p class="card-text color">Wake up to the soothing melody of waves. This beachfront villa offers <a href="#" class="text-white">Read More</a></p>
+                                <p class="card-text color">Wake up to the soothing melody of waves. This beachfront
+                                    villa offers <a href="#" class="text-white">Read More</a></p>
                             </div>
                             <div class="card-body row pt-3">
                                 <div class="col-5">
@@ -155,9 +204,11 @@
                             <img src="./assets/img/home/featured properties/Metropolitan Haven.webp"
                                 class="card-img-top c-img" alt="villa" />
                             <div class="card-body">
-                                <p class="small border border-white border-opacity-10 rounded-4 text-center gray-bg">Urban Oasis - Life in the Heart of the City</p>
+                                <p class="small border border-white border-opacity-10 rounded-4 text-center gray-bg">
+                                    Urban Oasis - Life in the Heart of the City</p>
                                 <h5 class="card-title">Metropolitan Haven</h5>
-                                <p class="card-text color">Immerse yourself in the energy of the city. This modern apartment in the heart <a href="#" class="text-white">Read More</a></p>
+                                <p class="card-text color">Immerse yourself in the energy of the city. This modern
+                                    apartment in the heart <a href="#" class="text-white">Read More</a></p>
                             </div>
                             <div class="card-body row pt-3">
                                 <div class="col-5">
@@ -177,9 +228,11 @@
                             <img src="./assets/img/home/featured properties/Rustic Retreat Cottage.webp"
                                 class="card-img-top c-img" alt="villa" />
                             <div class="card-body">
-                                <p class="small border border-white border-opacity-10 rounded-4 text-center gray-bg">Countryside Charm - Escape to Nature's Embrace</p>
+                                <p class="small border border-white border-opacity-10 rounded-4 text-center gray-bg">
+                                    Countryside Charm - Escape to Nature's Embrace</p>
                                 <h5 class="card-title">Rustic Retreat Cottage</h5>
-                                <p class="card-text color">Find tranquility in the countryside. This charming cottage is nestled amidst rolling hills <a href="#" class="text-white">Read More</a></p>
+                                <p class="card-text color">Find tranquility in the countryside. This charming cottage is
+                                    nestled amidst rolling hills <a href="#" class="text-white">Read More</a></p>
                             </div>
                             <div class="card-body row pt-3">
                                 <div class="col-5">
@@ -200,39 +253,46 @@
 
         <section class="properties-form py-5">
             <div class="container">
-                <img src="./assets/img/public/stars.svg" alt="stars"/>
+                <img src="./assets/img/public/stars.svg" alt="stars" />
                 <h2>Let's Make it Happen</h2>
-                <p class="small color">Ready to take the first step toward your dream property? Fill out the form below, and our real estate wizards will work their magic to find your perfect match. Don't wait; let's embark on this exciting journey together.</p>
+                <p class="small color">Ready to take the first step toward your dream property? Fill out the form below,
+                    and our real estate wizards will work their magic to find your perfect match. Don't wait; let's
+                    embark on this exciting journey together.</p>
                 <form>
                     <div class="row gy-2">
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="d-flex flex-column gap-1">
                                 <label class="pt-3">First Name</label>
-                                <input type="text" placeholder="Enter First Name" class="gray-bg border border-white border-opacity-10 rounded text-white p-2"/>
+                                <input type="text" placeholder="Enter First Name"
+                                    class="gray-bg border border-white border-opacity-10 rounded text-white p-2" />
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="d-flex flex-column gap-1">
                                 <label class="pt-3">Last Name</label>
-                                <input type="text" placeholder="Enter Last Name" class="gray-bg border border-white border-opacity-10 rounded text-white p-2"/>
+                                <input type="text" placeholder="Enter Last Name"
+                                    class="gray-bg border border-white border-opacity-10 rounded text-white p-2" />
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="d-flex flex-column gap-1">
                                 <label class="pt-3">Email</label>
-                                <input type="email" placeholder="Enter your Email" class="gray-bg border border-white border-opacity-10 rounded text-white p-2"/>
+                                <input type="email" placeholder="Enter your Email"
+                                    class="gray-bg border border-white border-opacity-10 rounded text-white p-2" />
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="d-flex flex-column gap-1">
                                 <label class="pt-3">Phone</label>
-                                <input type="tel" placeholder="Enter Phone Number" class="gray-bg border border-white border-opacity-10 rounded text-white p-2"/>
+                                <input type="tel" placeholder="Enter Phone Number"
+                                    class="gray-bg border border-white border-opacity-10 rounded text-white p-2" />
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="d-flex flex-column gap-1">
                                 <label class="pt-3">Preferred Location</label>
-                                <select type="text" class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
+                                <select type="text"
+                                    class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
                                     <option>Select Preferred Location</option>
                                 </select>
                             </div>
@@ -240,7 +300,8 @@
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="d-flex flex-column gap-1">
                                 <label class="pt-3">Property Type</label>
-                                <select type="text" class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
+                                <select type="text"
+                                    class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
                                     <option>Select Property Type</option>
                                 </select>
                             </div>
@@ -248,7 +309,8 @@
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="d-flex flex-column gap-1">
                                 <label class="pt-3">No. of Bathrooms</label>
-                                <select type="text" class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
+                                <select type="text"
+                                    class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
                                     <option>Select No. of Bathrooms</option>
                                 </select>
                             </div>
@@ -256,7 +318,8 @@
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="d-flex flex-column gap-1">
                                 <label class="pt-3">No. of Bedrooms</label>
-                                <select type="text" class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
+                                <select type="text"
+                                    class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
                                     <option>Select No. of Bedrooms</option>
                                 </select>
                             </div>
@@ -264,7 +327,8 @@
                         <div class="col-lg-6 col-12">
                             <div class="d-flex flex-column gap-1">
                                 <label class="pt-3">Budget</label>
-                                <select type="text" class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
+                                <select type="text"
+                                    class="gray-bg border border-white border-opacity-10 rounded text-white p-2">
                                     <option>Select Budget</option>
                                 </select>
                             </div>
@@ -273,8 +337,10 @@
                             <div class="d-flex flex-column gap-1">
                                 <label class="pt-3">No. of Bedrooms</label>
                                 <div class="border border-white border-opacity-10 p-2 gray-bg rounded">
-                                    <img src="./assets/img/properties/property form/phone.svg" alt="phone" class="ps-2"/>
-                                    <input type="tel" placeholder="Enter Phone Number" class="gray-bg border-0 text-white ps-2"/>
+                                    <img src="./assets/img/properties/property form/phone.svg" alt="phone"
+                                        class="ps-2" />
+                                    <input type="tel" placeholder="Enter Phone Number"
+                                        class="gray-bg border-0 text-white ps-2" />
                                 </div>
                             </div>
                         </div>
@@ -282,20 +348,24 @@
                             <div class="d-flex flex-column gap-1">
                                 <label class="pt-3">No. of Bedrooms</label>
                                 <div class="border border-white border-opacity-10 p-2 gray-bg rounded">
-                                    <img src="./assets/img/properties/property form/email.svg" alt="email" class="ps-2"/>
-                                    <input type="email" placeholder="Enter Phone Number" class="gray-bg border-0 text-white ps-2"/>
+                                    <img src="./assets/img/properties/property form/email.svg" alt="email"
+                                        class="ps-2" />
+                                    <input type="email" placeholder="Enter Phone Number"
+                                        class="gray-bg border-0 text-white ps-2" />
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="d-flex flex-column gap-1">
                                 <label class="pt-3">Message</label>
-                                <textarea rows="4" placeholder="Enter your Message here.." class="gray-bg rounded text-white p-2"></textarea>
+                                <textarea rows="4" placeholder="Enter your Message here.."
+                                    class="gray-bg rounded text-white p-2"></textarea>
                             </div>
                         </div>
                         <div class="col-lg-10 col-12">
                             <div>
-                                <input type="checkbox" class="form-check-input gray-bg border border-white border-opacity-10 p-2"/>
+                                <input type="checkbox"
+                                    class="form-check-input gray-bg border border-white border-opacity-10 p-2" />
                                 <label class="p-3">I agree with Terms of Use and Privacy Policy</label>
                             </div>
                         </div>
@@ -321,7 +391,8 @@
                         </div>
                     </div>
                     <div class="col-md-2 col-12 align-self-center">
-                        <a href="#" class="btn btn-purple text-white border border-white border-opacity-10 rounded">Explore
+                        <a href="#"
+                            class="btn btn-purple text-white border border-white border-opacity-10 rounded">Explore
                             Properties</a>
                     </div>
                 </div>

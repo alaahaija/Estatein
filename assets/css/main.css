@@ -9,6 +9,9 @@ body{
 .btn-purple{
     background-color: #703BF7;
 }
+input{
+    outline: none;
+}
 header nav, footer .downSide{
     background-color: #1E1E1E;
 }

@@ -2,12 +2,10 @@
     background: linear-gradient(310deg, rgb(7, 7, 7),rgba(103, 102, 102, 0.1));
     padding: 85px 0;
 }
-.propValue-bg{
+.prop-bg{
     background: url(./../img/services/propertyValue/Abstract\ Design.webp);
     background-repeat: no-repeat;
     background-size: cover;
-}
-.padding-custom{
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    background-position: center;
+    background-color: rgb(255, 255, 255, 0.03);
 }

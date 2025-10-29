@@ -9,3 +9,10 @@
     background-position: center;
     background-color: rgb(255, 255, 255, 0.03);
 }
+.smart-bg{
+    background: url(./../img/services/smartInvestments/AbstractDesign.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 255, 255, 0.03);
+}

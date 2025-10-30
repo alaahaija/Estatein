@@ -5,3 +5,10 @@
 .w-spacing {
     word-spacing: 1rem;
 }
+.discoverOurOffice .nav-link{
+    color: #fff;
+}
+.discoverOurOffice .nav-link.active{
+    color: #fff;
+    background-color: #1A1A1A;
+}

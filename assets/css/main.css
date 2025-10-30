@@ -12,6 +12,13 @@ body{
 input{
     outline: none;
 }
+textarea{
+    resize: none;
+    outline: none;
+}
+.form-check-input{
+    vertical-align: text-bottom;
+}
 header nav, footer .downSide{
     background-color: #1E1E1E;
 }

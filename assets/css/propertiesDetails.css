@@ -2,10 +2,6 @@
     background: linear-gradient(220deg, rgb(20, 20, 20),rgba(103, 102, 102, 0.1));
     border-left: .2rem solid #703BF7;
 }
-.property-inquiry textarea{
-    resize: none;
-    outline: none;
-}
 .form-check-input{
     vertical-align: text-bottom;
 }

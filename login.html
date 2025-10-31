@@ -11,6 +11,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
+    <!-- BOXICONS 3.0.3 -->
+    <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
+
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +21,38 @@
         rel="stylesheet">
 
     <!-- CUSTOM CSS -->
-    
+
+    <link rel="stylesheet" href="./assets/css/login.css">
 </head>
-<body>
-    
+<body class="d-flex justify-content-center align-items-center min-vh-100">
+    <video src="./assets/vid/login/login.mp4" autoplay loop muted class="w-100 vh-100 top-0 z-n1"></video>
+    <main class=" text-white">
+        <section class="login text-white">
+            <div class="loginForm rounded-3 p-5">
+                <form class="text-white">
+                    <h1 class="text-center">Login</h1>
+                    <div class=" inputBox position-relative w-100">
+                        <input type="text" placeholder="UserName" class=" w-100 h-100 bg-transparent rounded-pill text-white"/>
+                        <i class='bx  bx-user position-absolute'  ></i> 
+                    </div>
+                    <div class=" inputBox position-relative w-100">
+                        <input type="password" placeholder="Password" class=" w-100 h-100 bg-transparent rounded-pill text-white"/>
+                        <i class='bx  bx-lock position-absolute'  ></i> 
+                    </div>
+                    <div class="remmber-forget d-flex justify-content-between fs-5">
+                        <label for="">
+                            <input type="checkbox"/>
+                            Remmber Me
+                        </label>
+                        <a href="#" class="text-decoration-none border-bottom text-white">Forget Password?</a>
+                    </div>
+                    <button type="submit" class="btn w-100 rounded fs-2 fw-bold pb-5">Login</button>
+                    <div class="register text-center">
+                        <p>Don't Have Account? <a href="#" class="text-decoration-none text-white fw-bold">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

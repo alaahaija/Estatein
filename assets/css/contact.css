@@ -12,3 +12,7 @@
     color: #fff;
     background-color: #1A1A1A;
 }
+.officeBg{
+    background: url(./../img/contact/discover/officeBg.webp) no-repeat;
+    background-color: rgb(255, 255, 255, 0.03);
+}

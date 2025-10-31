@@ -62,3 +62,17 @@ border: 1px solid rgba(224, 224, 224, 0.15);
 .register p a :hover{
     text-decoration: underline;
 }
+@media screen and (max-width: 450px) {
+    .loginForm{
+        width: 90%;
+        height: 100vh;
+        margin: auto;
+    }
+    .inputBox{
+        width: 70%;
+    }
+    .remmber-forget{
+        font-size: 10px;
+        flex-wrap: wrap;
+    }
+}

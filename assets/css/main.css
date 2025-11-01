@@ -3,6 +3,17 @@ body{
     font-family: "Urbanist", sans-serif;
     color: #fff;
 }
+.btn{
+    transition: all 0.4s ease-in-out !important;
+    -webkit-transition: all 0.4s ease-in-out !important;
+    -moz-transition: all 0.4s ease-in-out !important
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+.logbtn:hover{
+    background-color: #703BF7;
+}
 .color{
     color: #999999;
 }
@@ -15,9 +26,6 @@ input{
 textarea{
     resize: none;
     outline: none;
-}
-.form-check-input{
-    vertical-align: text-bottom;
 }
 header nav, footer .downSide{
     background-color: #1E1E1E;
